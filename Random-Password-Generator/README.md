@@ -11,3 +11,9 @@ Then the for loop begins in the range of password_count; this loop is for the nu
 The next for loop then starts and generates random passwords where the range is from 0 to the password_lenth.This is the ASCII range of all the values for letters, numbers, and symbols.
 
 The password_char then stores the values of all the randomly generated strings. The random. Choice (All) returns a randomly selected element from the sequence All. After which, the chosen random element stored in password_char is added to the variable password, and finally, the generated password is displayed to the user. 
+
+
+#Procedure to Execute
+git clone https://github.com/aiprobably/Mini_Projects/Random-Password-Generator.git
+cd Random-Password-Generator/
+python3 random_password_generator.py
